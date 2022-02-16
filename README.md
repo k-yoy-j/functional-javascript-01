@@ -12,7 +12,19 @@ const map = new Map(['a,', 1], ['b', 2]);
 for (const a of map.keys()) log(a);   
 map.values(), map.entries()
 * 전개연산자   
-log([...a, ...arr]);
+log([...a, ...arr]);   
+const [head, a, ...tail] = odds(5);   
+log(head); log(a); log(tail);   
+* 제너레이터   
+: 이터레이터이자 이터러블을 생성하는 함수   
+function *gen(){   
+   yield 1;   
+   yield 2;   
+   return 100; (done true 일때 사용)   
+}   
+let iter = gen();   
+iter.next();   
+for (const a of gen())   
 
 ## 강의 목록
 1. 함수형 자바스크립트 기본기
