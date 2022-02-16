@@ -11,6 +11,8 @@ iterator 개념으로 순회
 const map = new Map(['a,', 1], ['b', 2]);   
 for (const a of map.keys()) log(a);   
 map.values(), map.entries()
+* 전개연산자   
+log([...a, ...arr]);
 
 ## 강의 목록
 1. 함수형 자바스크립트 기본기
