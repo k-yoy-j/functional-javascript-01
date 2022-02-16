@@ -1,15 +1,15 @@
 # ES6
 ## 정리
-* 이터러블/이터레이터 프로토콜
-. 이터러블: 이터레이터를 리턴하는 [Symbol.iterator]() 를 가진 값
-. 이터레이터: {value,done} 객체를 리턴하는 next()를 가진 값
-. 이터러블/이터레이터 프로토콜: 이터러블을 for...of, 전개 연산자 등과 함께 동작하도록한 규약
-* for .. of
-for (const a of arr) log(a);
+- 이터러블/이터레이터 프로토콜   
+. 이터러블: 이터레이터를 리턴하는 [Symbol.iterator]() 를 가진 값   
+. 이터레이터: {value,done} 객체를 리턴하는 next()를 가진 값   
+. 이터러블/이터레이터 프로토콜: 이터러블을 for...of, 전개 연산자 등과 함께 동작하도록한 규약   
+* for .. of   
+for (const a of arr) log(a);   
 iterator 개념으로 순회
-* map
-const map = new Map(['a,', 1], ['b', 2]);
-for (const a of map.keys()) log(a);
+* map   
+const map = new Map(['a,', 1], ['b', 2]);   
+for (const a of map.keys()) log(a);   
 map.values(), map.entries()
 
 ## 강의 목록
