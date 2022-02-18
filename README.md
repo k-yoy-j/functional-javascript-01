@@ -17,6 +17,10 @@ function *gen() {
 yield2;   
 }   
 map(a => a * a, gen());   
+3)   
+let m = new Map();
+m.set('a', 10);
+new Map(map(([k,a]) => [k, a*2], m));
 * 전개연산자   
 log([...a, ...arr]);   
 const [head, a, ...tail] = odds(5);   
