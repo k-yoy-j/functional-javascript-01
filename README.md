@@ -8,9 +8,15 @@
 for (const a of arr) log(a);   
 iterator 개념으로 순회
 * map   
+1)   
 const map = new Map(['a,', 1], ['b', 2]);   
 for (const a of map.keys()) log(a);   
 map.values(), map.entries()
+2)
+function *gen() {   
+yield2;   
+}   
+map(a => a * a, gen());   
 * 전개연산자   
 log([...a, ...arr]);   
 const [head, a, ...tail] = odds(5);   
