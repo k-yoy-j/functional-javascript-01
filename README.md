@@ -2,7 +2,7 @@
 ## 문법 정리
 https://docs.google.com/document/d/1guuCwwRYCbg03B-K9soyqwaOnuIM4pBR9R4t0vW4DYQ/edit?usp=sharing
 
-## 강의 목록
+## 인프런 - 유인동 ES6 강의 목록
 1. 함수형 자바스크립트 기본기
     1. 평가와 일급
     2. 일급 함수
