@@ -1,40 +1,6 @@
 # ES6
-## 정리
-- 이터러블/이터레이터 프로토콜   
-. 이터러블: 이터레이터를 리턴하는 [Symbol.iterator]() 를 가진 값   
-. 이터레이터: {value,done} 객체를 리턴하는 next()를 가진 값   
-. 이터러블/이터레이터 프로토콜: 이터러블을 for...of, 전개 연산자 등과 함께 동작하도록한 규약   
-* for .. of   
-for (const a of arr) log(a);   
-iterator 개념으로 순회
-* map   
-1)   
-const map = new Map(['a,', 1], ['b', 2]);   
-for (const a of map.keys()) log(a);   
-map.values(), map.entries()
-2)
-function *gen() {   
-yield2;   
-}   
-map(a => a * a, gen());   
-3)   
-let m = new Map();
-m.set('a', 10);
-new Map(map(([k,a]) => [k, a*2], m));
-* 전개연산자   
-log([...a, ...arr]);   
-const [head, a, ...tail] = odds(5);   
-log(head); log(a); log(tail);   
-* 제너레이터   
-: 이터레이터이자 이터러블을 생성하는 함수   
-function *gen(){   
-   yield 1;   
-   yield 2;   
-   return 100; (done true 일때 사용)   
-}   
-let iter = gen();   
-iter.next();   
-for (const a of gen())   
+## 문법 정리
+https://docs.google.com/document/d/1guuCwwRYCbg03B-K9soyqwaOnuIM4pBR9R4t0vW4DYQ/edit?usp=sharing
 
 ## 강의 목록
 1. 함수형 자바스크립트 기본기
