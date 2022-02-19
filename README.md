@@ -1,6 +1,8 @@
 # ES6
 ## 문법 정리
-https://docs.google.com/document/d/1guuCwwRYCbg03B-K9soyqwaOnuIM4pBR9R4t0vW4DYQ/edit?usp=sharing
+https://docs.google.com/document/d/1guuCwwRYCbg03B-K9soyqwaOnuIM4pBR9R4t0vW4DYQ/edit?usp=sharing   
+해당 강의에서 지연성 관련 코드는 ES6 문법을 이용해 자체적으로 만든 기법, 라이브러리임   
+https://github.com/marpple/fxts   
 
 ## 인프런 - 유인동 ES6 강의 목록
 1. 함수형 자바스크립트 기본기
